@@ -1,0 +1,298 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+#textbody {
+    position: absolute;
+    margin: 0px;
+    width: 0px;
+    top: 30%;
+    right: 13%;
+}
+
+#menu {
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    width: 90px;
+    height: 150px;
+    left: 90%;
+    top: 30%;
+}
+
+#name {
+    position: absolute;
+    margin: 0px;
+    width: 180;
+    height: auto;
+    right: 1%;
+    top: 5%;
+    overflow: hidden;
+}
+
+#nlogo{
+    width: 80%;
+}
+
+#imagegallery {
+    position: relative;
+    width: 84%;
+    height: 100%;
+    text-align: center;
+    overflow: scroll;
+}
+
+#imagegallery::-webkit-scrollbar {
+    display: none;
+}
+
+#imagegallery {
+    -ms-overflow-style: none;
+}
+
+#imagegallery {
+    scrollbar-width: none;
+}
+
+#images {
+    padding: 20px;
+    box-sizing: content-box;
+    overflow: hidden;
+    line-height: 80%;
+}
+
+img {
+    vertical-align: top;
+    padding: 10px;
+    overflow-y: scroll;
+    width: 200px;
+    height: auto;
+}
+
+#thumbnail {
+    vertical-align: center;
+    padding: 4px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 500px;
+    height: auto;
+    border: solid black 1px;
+    margin-bottom: 4px;
+}
+
+#BG {
+    background-image: url(Webimg/Lightbox/poster_full.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .7;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    overflow-x:hidden;
+    
+}
+
+#BGP {
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+#BG::-webkit-scrollbar {
+    display: none;
+}
+
+#BG {
+    -ms-overflow-style: none;
+}
+
+#BG {
+    scrollbar-width: none;
+}
+
+#BG2 {
+    background-image: url(VideoLIbrary/videoscreenshot.png);
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    opacity: .7;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    overflow-x:hidden;
+    
+}
+
+#BG2::-webkit-scrollbar {
+    display: none;
+}
+
+#BG2 {
+    -ms-overflow-style: none;
+}
+
+#BG2 {
+    scrollbar-width: none;
+}
+
+#BG3 {
+    background-image: url(Webimg/gallery.jpg);
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    opacity: .7;
+    position: relative;
+    overflow: scroll;
+    width:100%;
+    overflow-x:hidden;
+    
+}
+
+#BG3::-webkit-scrollbar {
+    display: none;
+}
+
+#BG3 {
+    -ms-overflow-style: none;
+}
+
+#BG3 {
+    scrollbar-width: none;
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #ff312e;
+}
+
+#colorbox {
+    position: absolute;
+    margin: -1px;
+    background-color: #ff312e;
+    width: 16%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    transition: .5s;
+}
+
+#colorbox2 {
+    position: absolute;
+    margin: -1px;
+    background-color: #2B9EB3;
+    width: 16%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    transition: .5s;
+}
+
+#colorbox3 {
+    position: absolute;
+    margin: -1px;
+    background-color: #44AF69;
+    width: 16%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    transition: .5s;
+}
+
+#colorbox4 {
+    position: absolute;
+    margin: -1px;
+    background-color: #FCAB10;
+    width: 308px;
+    height: 101%;
+    right: 0px;
+    top: 0px;
+    transition: .5s;
+}
+
+video {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+#textbox{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    width:400px;
+    height: 250px;
+    left: 40%;
+    top: 10px;
+}
+
+#textbox2{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    width:400px;
+    height: 250px;
+    left: 40%;
+    top: 10px;
+}
+
+#textbox3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    width:400px;
+    height: 250px;
+    left: 40%;
+    top: 10px;
+}
+#CR{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    font-size: 100px;
+    bottom: 1%;
+    left: 40%;
+    opacity: .7;
+    color: white;
+}
+#CR2{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    font-size: 100px;
+    bottom: 1%;
+    left: 40%;
+    opacity: .7;
+    color: white;
+}
+#CR3{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    font-size: 100px;
+    bottom: 1%;
+    left: 40%;
+    opacity: .7;
+    color: white;
+}
+#social{
+    position: absolute;
+    width: 160px;
+    right: 3%;
+    top: 92%
+    
+}
+.icon{
+    position: relative;
+    width: 30px;
+}
