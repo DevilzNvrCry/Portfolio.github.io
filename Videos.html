@@ -1,0 +1,92 @@
+<html>
+<head>
+    <link rel="stylesheet" media='screen and (min-width:1580px)' href="website.css">
+    <link rel="stylesheet" media='screen and (max-width:1580px)' href="website1580.css">
+     <link rel="stylesheet" media='screen and (max-width:1320px)' href="website1320.css">
+     <link rel="stylesheet" media='screen and (max-width:1200px)' href="website1200.css">
+    <link rel="stylesheet" media='screen and (max-width:1080px)' href="website1080.css">
+     <link rel="stylesheet" media='screen and (max-width:960px)' href="website960.css">
+    <link rel="stylesheet" media='screen and (max-width:840px)' href="website840.css">
+    <link rel="stylesheet" media='screen and (max-width:720px)' href="website720.css">
+    <link rel="stylesheet" media='screen and (max-width:600px)' href="website600.css">
+    <link rel="stylesheet" media='screen and (max-width:480px)' href="website480.css">
+    <link rel="stylesheet" media='screen and (max-width:420px)' href="website420.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #4e4e4e;
+        }
+        #v {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div id='colorbox3'>
+
+    </div>
+    <div id="name">
+        <img id = 'nlogo' src="Webimg/name.png">
+
+    </div>
+
+    <div id='social'>
+        <a href='https://www.facebook.com/vathnak.heng' target='_blank'><img class='icon' src="Webimg/icons/facebook.png"></a>
+        <a href='https://www.linkedin.com/in/vathnak-heng-44473813a/' target='_blank '><img class='icon' src='Webimg/icons/linkedin.png'></a>
+        <a href='https://www.youtube.com/user/DevilzNvrCry' target='_blank'><img class='icon' src='Webimg/icons/youtube.png'></a>
+    </div>
+
+
+    <div id="textbody">
+
+        <div id="menu">
+            <a onmouseover="red()" href="index.html">HOME</a>
+            <a onmouseover="blue()" href="Works.html">WORKS</a>
+            <a onmouseover="green()" href="Videos.html">VIDEOS</a>
+
+        </div>
+    </div>
+    <div id="imagegallery">
+        <div id='images'>
+            <div id = 'v'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VrjEqTrxP4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id = 'v'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hqnVVTcmU2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id = 'v'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k4SknSmKK1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id = 'v'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XjN8h6d_kLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>    
+        </div>
+
+    </div>
+
+    <script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        var div = document.getElementById("colorbox3");
+
+        function red() {
+            div.setAttribute("id", "colorbox")
+        }
+
+        function blue() {
+            div.setAttribute("id", "colorbox2")
+        }
+
+        function green() {
+            div.setAttribute("id", "colorbox3")
+        }
+
+        function yellow() {
+            div.setAttribute("id", "colorbox4")
+        }
+    </script>
+</body>
+</html>

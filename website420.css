@@ -302,3 +302,7 @@ video {
     position: relative;
     width: 20px;
 }
+iframe {
+    width: 250px;
+    height: auto; 
+}
