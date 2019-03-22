@@ -174,7 +174,11 @@ a {
     color: white;
     text-decoration: none;
 }
-
+#l1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #2B9EB3;
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
